@@ -1,4 +1,4 @@
-# RailsConf Matching Machine
+# Matching Machine [![Build Status](https://travis-ci.org/minifast/matching_machine.svg)](https://travis-ci.org/minifast/matching_machine) [![Code Climate](https://codeclimate.com/github/minifast/matching_machine.png)](https://codeclimate.com/github/minifast/matching_machine)
 
 Runs a mail merge against a list of RailsConf 2014 Scholars and their Guides.
 
