@@ -1,0 +1,15 @@
+To: "<%= scholar.name %>" <<%= scholar.email %>>
+
+Hi there <%= scholar.name.split(/\s+/).first %>!
+
+Are you psyched for RailsConf tomorrow? Me too! We’ve fed all the Guide and Scholar names into the RailsConf Scholar Matcher machine(tm), and I think you're going to like what came out.
+<% if other_guide.nil? %>
+Tonight at 5:30 in the Fountainview room at the Sheraton, we're getting all the guides and scholars together to meet. We’ll be introducing you to your guide, <%= guide.name %>. When you get there, come find me or Abby Phoenix, and we'll get you together with the right person.
+<% else %>
+Tonight at 5:30 in the Fountainview room at the Sheraton, we're getting all the guides and scholars together to meet. We’ll be introducing you to your 2(!) guides, <%= guide.name %> and <%= other_guide.name %>. When you get there, come find me or Abby Phoenix, and we'll get you together with the right people.
+<% end %>
+To get there: the Fountainview Room is located on the lobby level, on the river side of the hotel. The Sheraton site has directions to the hotel itself: http://www.sheratonchicago.com/faqs/transportationparking.html.
+
+I'm excited to see you tonight & throughout the conference this week! Let me know if you have any questions or comments.
+
+Sarah

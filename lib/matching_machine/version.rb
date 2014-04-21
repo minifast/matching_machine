@@ -1,0 +1,3 @@
+module MatchingMachine
+  VERSION = "0.0.1"
+end
